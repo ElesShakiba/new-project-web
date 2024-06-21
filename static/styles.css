@@ -1,57 +1,31 @@
-/* Reset some basic elements */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-    line-height: 1.6;
 }
 
-/* Header styles */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-}
-
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .logo {
+.logo {
     font-size: 1.8em;
     font-weight: bold;
 }
 
-header nav ul {
-    display: flex;
-    list-style: none;
-}
-
-header nav ul li {
-    margin-left: 20px;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1em;
-    transition: color 0.3s ease;
-}
-
-header nav ul li a:hover {
-    color: #ff6347;
-}
-
-/* Hero section styles */
 .hero {
+<<<<<<< HEAD
+    height: 100vh;
+}
+
+.about-team h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-team p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #666;
+}
+=======
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1600x900/?technology,security') no-repeat center center/cover;
     color: #fff;
     text-align: center;
@@ -71,90 +45,5 @@ header nav ul li a:hover {
 
 .cta {
     background-color: #ff6347;
-    color: #fff;
-    padding: 15px 30px;
-    text-decoration: none;
-    font-size: 1.2em;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.cta:hover {
-    background-color: #ff4500;
-}
-
-/* About Team section styles */
-.about-team {
-    padding: 60px 20px;
-    background-color: #fff;
-    text-align: center;
-    animation: fadeInUp 2s ease-in-out;
-}
-
-.about-team h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.about-team p {
-    font-size: 1.2em;
-    line-height: 1.8;
-    max-width: 800px;
-    margin: 0 auto;
-    color: #666;
-}
-
-/* Footer styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
-}
-
-/* Animation keyframes */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2.5em;
-    }
-    
-    .hero p {
-        font-size: 1.2em;
-    }
-    
-    .cta {
-        font-size: 1em;
-        padding: 10px 20px;
-    }
-    
-    .about-team h2 {
-        font-size: 2em;
-    }
-    
-    .about-team p {
-        font-size: 1em;
-    }
-}
+   
+>>>>>>> samplebranch
